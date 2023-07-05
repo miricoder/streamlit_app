@@ -24,7 +24,7 @@ st.set_page_config(
 	page_icon="👨‍⚕️")
 
 # st.set_option('description.showfileUploaderEncoding', False)
-@st.cache_data() #allow_output_mutation=True
+@st.cache() #allow_output_mutation=True
 
 def load_model():
 	model = tf.keras.models.load_model("cnn_3_model.hdf5")
