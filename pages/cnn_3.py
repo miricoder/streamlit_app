@@ -17,7 +17,8 @@ import numpy as np
 # cnn_model = pickle.load(open("/Users/miralimirzayev/Desktop/McCombs_Bootcamp/cohortDec17/projects/Streamlit_Dev/CNN_Model/saved_model.pb","rb"))
 # cnn_model = tf.keras.models.load_model("/Users/miralimirzayev/Desktop/McCombs_Bootcamp/cohortDec17/projects/Streamlit_Dev/CNN_Model/saved_model.pb")
 # cnn_model = tf.keras.models.load_model("/Users/miralimirzayev/Desktop/McCombs_Bootcamp/cohortDec17/projects/Streamlit_dev/pages/cnn_3_model.hdf5")
-cnn_model = tf.keras.models.load_model("/Users/miralimirzayev/Desktop/McCombs_Bootcamp/cohortDec17/streamlit_app/models/cnn_3_model.hdf5")
+# cnn_model = tf.keras.models.load_model("/Users/miralimirzayev/Desktop/McCombs_Bootcamp/cohortDec17/streamlit_app/models/cnn_3_model.hdf5")
+cnn_model = tf.keras.models.load_model("streamlit_app/models/cnn_3_model.hdf5")
 st.set_page_config(
 	page_title = "CNN - Project #7 - Image Predictor",
 	page_icon="👨‍⚕️")
