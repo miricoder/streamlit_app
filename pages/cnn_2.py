@@ -13,7 +13,7 @@ from tensorflow.keras.applications.imagenet_utils import decode_predictions
 # import cv2 
 from PIL import Image, ImageOps 
 import numpy as np
-
+from inference import infer
 #### Inference function that outputs  dish names, the places of origin and ingredients
 
 
