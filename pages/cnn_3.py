@@ -34,3 +34,8 @@ st.write("""
 		# CNN Sample Project for 101 Food UDEMY Class
 		""")
 file = st.file_uploader("Please upload an flower image", type=["jpg","png"])
+
+st.set_page_config(
+    page_title="Diabetes Prediction",
+    page_icon="👨‍⚕️",
+)
