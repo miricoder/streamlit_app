@@ -59,3 +59,9 @@ def nav_page(page_name, timeout_secs=3):
         </script>
     """ % (page_name, timeout_secs)
     html(nav_script)
+
+@st.cache(allow_output_mutation=True)
+def get_base64_of_bin_file(png_file):
+    with open(png_file, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
