@@ -102,6 +102,6 @@ def add_logo(png_file):
         logo_markup,
         unsafe_allow_html=True,
     )
-add_logo("logo1.png")
+add_logo("pages/logo1.png")
 
 st.title('Diabetes Prediction using ML')
